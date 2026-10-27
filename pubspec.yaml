@@ -1,0 +1,61 @@
+name: treinolivre
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Firebase Core e Auth (Versões estáveis e compatíveis)
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  google_sign_in: ^6.3.0
+  # Firebase ^^^^^
+  sqflite: ^2.4.4
+  path: ^1.9.0
+  cupertino_icons: ^1.0.8
+  sqflite_common_ffi: ^2.4.3
+  sqlite3_flutter_libs: ^0.5.2
+  intl: ^0.20.3
+  flutter_local_notifications: ^22.3.1
+  timezone: ^0.11.1
+  image_picker: ^1.2.3
+  fl_chart: ^0.69.2
+  flutter_launcher_icons: "^0.14.1"
+  flutter_facebook_auth: ^7.2.0
+  flutter_secure_storage: ^10.3.4
+  flutter_native_splash: ^2.4.4
+  cloud_firestore: ^5.6.2
+  firebase_storage: ^12.4.10
+  google_generative_ai: ^0.4.6
+  url_launcher: ^6.3.3
+
+flutter_launcher_icons:
+  image_path: "assets/imagem/icon/logo.png"
+  android: true
+  ios: true
+  adaptive_icon_background: "#000000" 
+  adaptive_icon_foreground: "assets/imagem/icon/logo.png"
+  
+flutter_native_splash:
+  color: "#000000"
+  image: "assets/imagem/icon/logo.png"
+  android: true
+  ios: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/imagem/masculino_e_feminino.png
+    - assets/imagem/dieta.png
+    - assets/imagem/hidratação.png

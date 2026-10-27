@@ -1,0 +1,33 @@
+# Chaves e Assinaturas (NUNCA COMPARTILHAR PUBLICAMENTE)
+key.properties
+**/*.keystore
+**/*.jks
+
+# Segredos e Variáveis de Ambiente
+.env
+*.env
+
+# Banco de Dados Local (SQLite)
+*.db
+*.sqlite
+
+# Build e Dependências do Gradle / Android
+gradle-wrapper.jar
+/.gradle
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
+GeneratedPluginRegistrant.java
+.cxx/
+
+# Arquivos do Editor e Sistema Operacional
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db

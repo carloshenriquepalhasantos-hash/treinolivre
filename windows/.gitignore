@@ -1,0 +1,23 @@
+# Flutter/Dart build files
+**/build/
+.dart_tool/
+.pub/
+.packages
+pubspec.lock
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Local database files (SQLite)
+*.db
+*.sqlite
+*.db-journal
+
+# Environment variables & Sensitive keys (Firebase & Gemini API)
+# Se você costuma colocar suas chaves em arquivos de configuração locais, liste-os aqui:
+.env
+firebase.json
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
